@@ -22,3 +22,12 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+## Backend Setup
+
+For this project, you need both the fron-end and back-end running at the same time.
+
+### Launch the backend
+```
+npm run backend
+```
