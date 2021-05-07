@@ -5,10 +5,15 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "generate": "json-server ./db/generate.js",
+    "backend": "json-server ./db/people.json",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "faker": "^5.5.3",
+    "json-server": "^0.16.3",
+    "lodash": "^4.17.21",
     "vue": "^3.0.0"
   },
   "devDependencies": {
