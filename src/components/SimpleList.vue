@@ -1,22 +1,24 @@
 <template>
-  <table>
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Email</th>
-        <th>Phone</th>
-        <th>Department</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr v-for="person in people" :key="person.id">
-        <td>{{ person.name }}</td>
-        <td>{{ person.email }}</td>
-        <td>{{ person.phone }}</td>
-        <td>{{ person.department }}</td>
-      </tr>
-    </tbody>
-  </table>
+  <div class="overflow-scroll p-2">
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Phone</th>
+          <th>Department</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr v-for="person in people" :key="person.id">
+          <td>{{ person.name }}</td>
+          <td>{{ person.email }}</td>
+          <td>{{ person.phone }}</td>
+          <td>{{ person.department }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
 </template>
 
 <script>
